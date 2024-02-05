@@ -1,0 +1,27 @@
+{
+  "name": "clip-bpe-ts",
+  "version": "1.0.0",
+  "description": "A TypeScript port of [OpenAI's CLIP byte-pair-encoding tokenizer](https://github.com/openai/CLIP/blob/3bee28119e6b28e75b82b811b87b56935314e6a5/clip/simple_tokenizer.py).",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "keywords": [],
+  "author": "josephrocca",
+  "contributors": [
+    {
+      "name" : "dayrain",
+      "email" : "blackwaterbread@gmail.com",
+      "url" : "https://github.com/blackwaterbread"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "html-entities": "^2.4.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16"
+  }
+}

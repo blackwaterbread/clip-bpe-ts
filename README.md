@@ -1,8 +1,8 @@
-# CLIP Byte Pair Encoding JavaScript Port
-A JavaScript port of [OpenAI's CLIP byte-pair-encoding tokenizer](https://github.com/openai/CLIP/blob/3bee28119e6b28e75b82b811b87b56935314e6a5/clip/simple_tokenizer.py).
+# CLIP Byte Pair Encoding TypeScript Port
+A TypeScript port of [OpenAI's CLIP byte-pair-encoding tokenizer](https://github.com/openai/CLIP/blob/3bee28119e6b28e75b82b811b87b56935314e6a5/clip/simple_tokenizer.py).
 
 ```js
-import Tokenizer from "https://deno.land/x/clip_bpe@v0.0.6/mod.js";
+import Tokenizer from "clip-bpe-ts";
 let t = new Tokenizer();
 
 t.encode("hello") // [3306]
